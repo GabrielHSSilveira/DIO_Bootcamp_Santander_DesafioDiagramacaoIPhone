@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-04-30T15:20:02.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qPUqg9-7_do52VRfGiVS" version="24.3.1" type="device">
+  <diagram name="Página-1" id="S8EdEFwX1jJksj43TR2Q">
+    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;class IPhone implementes ReprodutorMusical, AparelhoTelefonic, NavegadorInternet {&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+tocar();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+pausar();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+selecionarMusica(musica: String);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+ligar(numero: String);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+atender():&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+iniciarCorreioVoz();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+exibirPagina(url: String);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+adicionarNovaAba(url: String);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;+atualizarPagina();&lt;/font&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt; }&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="190" width="620" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;interface ReprodutorMusical {&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ tocar();&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+pausar();&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+selecionarMusica(musica: String); &lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;}&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="458" width="230" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;interface AparelhoTelefonico {&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ligar(numero: String);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+atender();&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+iniciarCorreioVoz();&amp;nbsp;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;}&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300.5" y="458" width="227" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;interface NavegadorInternet {&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+exibirPagina(url: String)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+adicionarNovaAba(url: String);&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+atualizarPagina();&amp;nbsp;&lt;b style=&quot;font-size: 15px; background-color: initial; text-align: center;&quot;&gt;}&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="458" width="230" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y7hsCBRrSKA7lWk5a83F-3" target="Y7hsCBRrSKA7lWk5a83F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7hsCBRrSKA7lWk5a83F-4" target="Y7hsCBRrSKA7lWk5a83F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y7hsCBRrSKA7lWk5a83F-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7hsCBRrSKA7lWk5a83F-2" target="Y7hsCBRrSKA7lWk5a83F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
